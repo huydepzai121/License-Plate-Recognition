@@ -1,6 +1,9 @@
 yolov5/
-test_image/
 check_cache/
+# Allow important test images for red license plates
+!test_image/
+!test_image/*.jpg
+!test_image/*.png
 /draw_image.py
 /test.py
 /res.jpg
